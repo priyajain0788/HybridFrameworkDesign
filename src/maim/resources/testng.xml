@@ -1,0 +1,14 @@
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Demo WebShop Test Suite">
+<listeners>
+	<listener class-name="com.qa.Listeners.ExtentReporterNG"></listener>
+	<listener class-name="com.qa.Listeners.MyTransform"></listener>
+</listeners>
+
+  <test name="Demo Web Shop Test Cases" >
+    <classes>
+       <class name="com.qa.testcases.RegistrationPageTest"></class>
+       <class name="com.qa.testcases.LoginPageTest"></class>
+       </classes>
+  </test>
+</suite>

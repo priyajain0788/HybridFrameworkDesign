@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo WebShop Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.Listeners.ExtentReporterNG"/>
+    <listener class-name="com.qa.Listeners.MyTransform"/>
+  </listeners>
+  <test thread-count="5" name="Demo Web Shop Test Cases(failed)">
+    <classes>
+      <class name="com.qa.testcases.RegistrationPageTest">
+        <methods>
+          <include name="verifyRegistration"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Demo Web Shop Test Cases(failed) -->
+</suite> <!-- Failed suite [Demo WebShop Test Suite] -->
