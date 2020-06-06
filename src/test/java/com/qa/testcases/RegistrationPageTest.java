@@ -50,8 +50,8 @@ public class RegistrationPageTest extends TestBase {
 	@Test
 	public void verifyRegistration() {
 		extentTest = extent.startTest("verifyRegistration");
-		registerPage.fillRegistrationForm("Male", "abc5", "def5", "abc5.def5@test.com", "Tosca@1234");
-		boolean successByEmail = registerPage.verifyRegistrationSuccessByAccountId("abc5.def5@test.com");
+		registerPage.fillRegistrationForm("Male", "abc6", "def6", "abc6.def6@test.com", "Tosca@1234");
+		boolean successByEmail = registerPage.verifyRegistrationSuccessByAccountId("abc6.def6@test.com");
 		assertEquals(true, successByEmail);
 		boolean successByMsg = registerPage.verifyRegistrationSuccessBySuccessMsg();
 		assertEquals(true, successByMsg);
