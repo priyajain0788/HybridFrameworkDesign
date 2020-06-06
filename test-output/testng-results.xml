@@ -1,295 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="1" ignored="0" total="7" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Demo WebShop Test Suite" duration-ms="90202" started-at="2020-06-06T14:29:24Z" finished-at="2020-06-06T14:30:54Z">
+  <suite name="Demo WebShop Test Suite" duration-ms="31822" started-at="2020-06-06T16:25:39Z" finished-at="2020-06-06T16:26:11Z">
     <groups>
     </groups>
-    <test name="Demo Web Shop Test Cases" duration-ms="90202" started-at="2020-06-06T14:29:24Z" finished-at="2020-06-06T14:30:54Z">
-      <class name="com.qa.testcases.RegistrationPageTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="setExtent" is-config="true" duration-ms="196" started-at="2020-06-06T14:29:24Z" finished-at="2020-06-06T14:29:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="setup" is-config="true" duration-ms="15073" started-at="2020-06-06T14:29:24Z" finished-at="2020-06-06T14:29:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="verifyRegistration" duration-ms="1973" started-at="2020-06-06T14:29:39Z" finished-at="2020-06-06T14:29:41Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at com.qa.testcases.RegistrationPageTest.verifyRegistration(RegistrationPageTest.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistration -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="tearDown" is-config="true" duration-ms="1173" started-at="2020-06-06T14:29:41Z" finished-at="2020-06-06T14:29:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRegistration status=SKIP method=RegistrationPageTest.verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="setup" is-config="true" duration-ms="10786" started-at="2020-06-06T14:29:42Z" finished-at="2020-06-06T14:29:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="verifyRegistration" duration-ms="2732" started-at="2020-06-06T14:29:53Z" finished-at="2020-06-06T14:29:56Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at com.qa.testcases.RegistrationPageTest.verifyRegistration(RegistrationPageTest.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistration -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="tearDown" is-config="true" duration-ms="1009" started-at="2020-06-06T14:29:56Z" finished-at="2020-06-06T14:29:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRegistration status=SKIP method=RegistrationPageTest.verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="setup" is-config="true" duration-ms="11000" started-at="2020-06-06T14:29:57Z" finished-at="2020-06-06T14:30:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="verifyRegistration" duration-ms="1736" started-at="2020-06-06T14:30:08Z" finished-at="2020-06-06T14:30:09Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at com.qa.testcases.RegistrationPageTest.verifyRegistration(RegistrationPageTest.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistration -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="tearDown" is-config="true" duration-ms="1042" started-at="2020-06-06T14:30:09Z" finished-at="2020-06-06T14:30:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRegistration status=SKIP method=RegistrationPageTest.verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="setup" is-config="true" duration-ms="10258" started-at="2020-06-06T14:30:10Z" finished-at="2020-06-06T14:30:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="verifyRegistration" duration-ms="1741" started-at="2020-06-06T14:30:21Z" finished-at="2020-06-06T14:30:22Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at com.qa.testcases.RegistrationPageTest.verifyRegistration(RegistrationPageTest.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistration -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="tearDown" is-config="true" duration-ms="1042" started-at="2020-06-06T14:30:22Z" finished-at="2020-06-06T14:30:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRegistration status=FAILURE method=RegistrationPageTest.verifyRegistration()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.RegistrationPageTest@5c1a8622]" name="endReport" is-config="true" duration-ms="537" started-at="2020-06-06T14:30:53Z" finished-at="2020-06-06T14:30:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.qa.testcases.RegistrationPageTest -->
+    <test name="Demo Web Shop Test Cases" duration-ms="31822" started-at="2020-06-06T16:25:39Z" finished-at="2020-06-06T16:26:11Z">
       <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="setUp" is-config="true" duration-ms="8615" started-at="2020-06-06T14:30:23Z" finished-at="2020-06-06T14:30:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@3a079870]" name="setUp" is-config="true" duration-ms="10473" started-at="2020-06-06T16:25:39Z" finished-at="2020-06-06T16:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pageTitleTest()[pri:1, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="pageTitleTest" duration-ms="27" started-at="2020-06-06T14:30:32Z" finished-at="2020-06-06T14:30:32Z">
+        <test-method status="PASS" signature="pageTitleTest()[pri:1, instance:com.qa.testcases.LoginPageTest@3a079870]" name="pageTitleTest" duration-ms="32" started-at="2020-06-06T16:25:49Z" finished-at="2020-06-06T16:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-06-06T14:30:32Z" finished-at="2020-06-06T14:30:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@3a079870]" name="tearDown" is-config="true" duration-ms="647" started-at="2020-06-06T16:25:49Z" finished-at="2020-06-06T16:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="setUp" is-config="true" duration-ms="8840" started-at="2020-06-06T14:30:33Z" finished-at="2020-06-06T14:30:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@3a079870]" name="setUp" is-config="true" duration-ms="8698" started-at="2020-06-06T16:25:50Z" finished-at="2020-06-06T16:25:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLogo()[pri:2, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="validateLogo" duration-ms="109" started-at="2020-06-06T14:30:42Z" finished-at="2020-06-06T14:30:42Z">
+        <test-method status="PASS" signature="validateLogo()[pri:2, instance:com.qa.testcases.LoginPageTest@3a079870]" name="validateLogo" duration-ms="121" started-at="2020-06-06T16:25:59Z" finished-at="2020-06-06T16:25:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="tearDown" is-config="true" duration-ms="661" started-at="2020-06-06T14:30:42Z" finished-at="2020-06-06T14:30:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@3a079870]" name="tearDown" is-config="true" duration-ms="634" started-at="2020-06-06T16:25:59Z" finished-at="2020-06-06T16:25:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="setUp" is-config="true" duration-ms="9768" started-at="2020-06-06T14:30:42Z" finished-at="2020-06-06T14:30:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@3a079870]" name="setUp" is-config="true" duration-ms="9488" started-at="2020-06-06T16:25:59Z" finished-at="2020-06-06T16:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:3, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="login" duration-ms="477" started-at="2020-06-06T14:30:52Z" finished-at="2020-06-06T14:30:53Z">
+        <test-method status="PASS" signature="login()[pri:3, instance:com.qa.testcases.LoginPageTest@3a079870]" name="login" duration-ms="522" started-at="2020-06-06T16:26:09Z" finished-at="2020-06-06T16:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@5ad851c9]" name="tearDown" is-config="true" duration-ms="668" started-at="2020-06-06T14:30:53Z" finished-at="2020-06-06T14:30:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@3a079870]" name="tearDown" is-config="true" duration-ms="1161" started-at="2020-06-06T16:26:09Z" finished-at="2020-06-06T16:26:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
