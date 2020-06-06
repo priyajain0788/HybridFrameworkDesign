@@ -7,7 +7,7 @@
 
   <test name="Demo Web Shop Test Cases" >
     <classes>
-       <class name="com.qa.testcases.RegistrationPageTest"></class>
+       <!-- <class name="com.qa.testcases.RegistrationPageTest"></class> -->
        <class name="com.qa.testcases.LoginPageTest"></class>
        </classes>
   </test>
