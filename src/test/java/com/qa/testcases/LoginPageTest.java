@@ -1,5 +1,6 @@
 package com.qa.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,9 +14,11 @@ public class LoginPageTest extends TestBase {
 
 	LoginPage loginPage;
 	HomePage homePage;
+	Logger log = Logger.getLogger(LoginPageTest.class);
 
 	@BeforeMethod
 	public void setUp() {
+		log.info("************* Set Up method *********************");
 		init();
 		loginPage = new LoginPage();
 	}
